@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Raleway Bold';
+    src: url('../assets/fonts/Raleway-Bold.eot');
+    src: url('../assets/fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Raleway-Bold.woff') format('woff'),
+    url('../assets/fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../assets/fonts/OpenSans-Regular.eot');
+    src: url('../assets/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/OpenSans-Regular.woff') format('woff'),
+    url('../assets/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url('../assets/fonts/OpenSans-SemiBold.eot');
+    src: url('../assets/fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/OpenSans-SemiBold.woff') format('woff'),
+    url('../assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../assets/fonts/OpenSans-Bold.eot');
+    src: url('../assets/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/OpenSans-Bold.woff') format('woff'),
+    url('../assets/fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+// Fonst variables
+
+$os-regular: 'Open Sans Regular', sans-serif;
+$os-semibold: 'Open Sans Semibold', sans-serif;
+$os-bold: 'Open Sans Bold', sans-serif;
+$rl-bold: 'Raleway Bold', sans-serif;
+
+// Colors variables
+
+$white-cl: rgb(255, 255, 255);
+$price-card-color-1: linear-gradient(180.00deg, rgb(23, 26, 36),rgba(23, 26, 36, 0.2) 100%);
+$price-card-color-2: linear-gradient(180.00deg, rgb(9, 11, 19),rgba(9, 11, 19, 0.2) 100%);
+$small-main-title-cl: rgba(157, 164, 189, 0.6);
+$features-box-bg-cl: rgb(247, 247, 247);
+$black-txt-color: rgb(48, 48, 48);
+$hover-orange-cl: rgb(255, 108, 0);
+$contacts-txt-cl: rgb(157, 164, 189);
+$contacts-txt-hover-cl: rgb(157, 164, 189);
+$copyright-txt-cl: rgb(157, 164, 189);
+$booking-input-color: rgba(157, 164, 189, 0.4);
+
+// Font size variables
+// font-size: calc(7vw - 4px);
+
+$nav-menu: 12px;
+$nac-menu-burger: 18px;
+
+$hero-small-main-title: 11px;
+
+$hero-title-big: 72px;
+$hero-title-medium: 56px;
+$hero-title-s-medium: 48px;
+$hero-title-small: 36px;
+
+$hero-subtitle: 18px;
+$hero-subtitle-small: 16px;
+
+$section-title: 42px;
+$section-title-medium: 28px;
+$section-title-small: 24px;
+
+$section-subtitle: 18px;
+$section-subtitle-small: 16px;
+
+$section-desc: 14px;
+
+$price-key-and-value: 18px;
+$price-key-and-valuesmall: 14px;
+
+$features-box-subtitle: 11px;
+
+$barber-category: 14px;
+
+$booking-form: 11px;
+
+$booking-fomr-send-btn: 12px;
+$contacts-txt: 18px;

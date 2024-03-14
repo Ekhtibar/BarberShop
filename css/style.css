@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.container {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0px 20px 0px 20px;
+  position: relative;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+  flex: 1 1 auto;
+}
+
+@font-face {
+  font-family: "Raleway Bold";
+  src: url("../assets/fonts/Raleway-Bold.eot");
+  src: url("../assets/fonts/Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Raleway-Bold.woff") format("woff"), url("../assets/fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("../assets/fonts/OpenSans-Regular.eot");
+  src: url("../assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Regular.woff") format("woff"), url("../assets/fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans Semibold";
+  src: url("../assets/fonts/OpenSans-SemiBold.eot");
+  src: url("../assets/fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-SemiBold.woff") format("woff"), url("../assets/fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("../assets/fonts/OpenSans-Bold.eot");
+  src: url("../assets/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/OpenSans-Bold.woff") format("woff"), url("../assets/fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}/*# sourceMappingURL=style.css.map */
